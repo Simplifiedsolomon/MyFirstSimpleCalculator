@@ -45,7 +45,7 @@ class _MyAppState extends State<MyApp> {
                   decoration: InputDecoration(
                     labelText: 'Enter the First Number',
                     hintText: 'First Number',
-                    errorText: 'space cannot be empty',
+                    //errorText: 'space cannot be empty',
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
@@ -137,6 +137,10 @@ class _MyAppState extends State<MyApp> {
               ],
             ),
           ),
+        ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {},
+          child: Icon(Icons.messenger),
         ),
       ),
     );
